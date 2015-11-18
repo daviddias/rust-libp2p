@@ -27,7 +27,7 @@ libp2p implementation in Rust is a work in progress. As such, there's a few thin
 
 # Usage
 
-`rust-libp2p` repo will be a place holder for the list of Rust modules that compose Rust libp2p, as well as its entry point..
+`rust-libp2p` repo will be a place holder for the list of Rust modules that compose Rust libp2p, as well as its entry point.
 
 # Modules
 
