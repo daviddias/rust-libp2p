@@ -1,7 +1,11 @@
 [libp2p](https://github.com/ipfs/specs/tree/master/protocol/network) Implementation in Rust
 ===========================================================================================
 
+[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io) [[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+
 > libp2p implementation in Rust
+
+![](https://raw.githubusercontent.com/diasdavid/specs/libp2p-spec/protocol/network/figs/logo.png)
 
 # Description
 
@@ -11,13 +15,23 @@ libp2p is the product of a long, and arduous quest of understanding -- a deep di
 
 We will be writing a set of docs, posts, tutorials, and talks to explain what p2p is, why it is tremendously useful, and how it can help your existing and new projects.
 
+# Contribute
+
+libp2p implementation in Rust is a work in progress. As such, there's a few things you can do right now to help out:
+
+ - Go through the modules below and **check out existing issues**. This would be especially useful for modules in active development. Some knowledge of IPFS/libp2p may be required, as well as the infrasture behind it - for instance, you may need to read up on p2p and more complex operations like muxing to be able to help technically.
+ - **Perform code reviews**. Most of this has been developed by @diasdavid, which means that more eyes will help a) speed the project along b) ensure quality and c) reduce possible future bugs.
+ - **Add tests**. There can never be enough tests.
+
+
+
 # Usage
 
-`rust-libp2p` repo will be a place holder for the list of Rust modules that compose Rust libp2p.
+`rust-libp2p` repo will be a place holder for the list of Rust modules that compose Rust libp2p, as well as its entry point..
 
 # Modules
 
-- [libp2p] (entry point)
+- [libp2p](https://github.com/diasdavid/rust-libp2p) (entry point)
 - **Swarm**
   - [libp2p-swarm]()
   - [libp2p-identify]()
@@ -60,3 +74,4 @@ We will be writing a set of docs, posts, tutorials, and talks to explain what p2
   - [ipld]()
   - [repo]()
 - [**Specs**](https://github.com/ipfs/specs/tree/master/protocol/network)
+- [**Website**](https://github.com/diasdavid/libp2p-website)
