@@ -67,8 +67,8 @@ libp2p implementation in Rust is a work in progress. As such, there's a few thin
 - **Generic**
   - [PeerInfo]()
   - [PeerId]()
-  - [multihash]()
-  - [multiaddr]()
+  - [multihash](https://github.com/google/rust-multihash)
+  - [multiaddr](https://github.com/Dignifiedquire/rust-multiaddr)
   - [multistream]()
   - [multicodec]()
   - [ipld]()
